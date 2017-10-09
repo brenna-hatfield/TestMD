@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90D21CD41F8C0C8200D56B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D21CD31F8C0C8200D56B6C /* AppDelegate.swift */; };
+		90D21CD61F8C0C8200D56B6C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D21CD51F8C0C8200D56B6C /* MasterViewController.swift */; };
+		90D21CD81F8C0C8200D56B6C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D21CD71F8C0C8200D56B6C /* DetailViewController.swift */; };
+		90D21CDB1F8C0C8200D56B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D21CD91F8C0C8200D56B6C /* Main.storyboard */; };
+		90D21CDD1F8C0C8200D56B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D21CDC1F8C0C8200D56B6C /* Assets.xcassets */; };
+		90D21CE01F8C0C8200D56B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90D21CDE1F8C0C8200D56B6C /* LaunchScreen.storyboard */; };
+		90D21D121F8C18F300D56B6C /* Diablo III.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D0A1F8C18F300D56B6C /* Diablo III.jpg */; };
+		90D21D141F8C18F300D56B6C /* Final Fantasy A Realm Reborn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D0C1F8C18F300D56B6C /* Final Fantasy A Realm Reborn.jpg */; };
+		90D21D161F8C18F300D56B6C /* Final Fantasy X.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D0E1F8C18F300D56B6C /* Final Fantasy X.jpg */; };
+		90D21D181F8C18F300D56B6C /* Kingdom Hearts 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D101F8C18F300D56B6C /* Kingdom Hearts 2.jpg */; };
+		90D21D191F8C18F300D56B6C /* Skyrim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D111F8C18F300D56B6C /* Skyrim.jpg */; };
+		90D21D1D1F8C19CB00D56B6C /* Elder Scrolls Online.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D1A1F8C19CB00D56B6C /* Elder Scrolls Online.jpg */; };
+		90D21D1E1F8C19CB00D56B6C /* Final Fantasy VII.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D1B1F8C19CB00D56B6C /* Final Fantasy VII.jpg */; };
+		90D21D211F8C1A8200D56B6C /* Final Fantasy XV.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 90D21D201F8C1A8200D56B6C /* Final Fantasy XV.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90D21CD01F8C0C8100D56B6C /* TestMD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90D21CD31F8C0C8200D56B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90D21CD51F8C0C8200D56B6C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		90D21CD71F8C0C8200D56B6C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		90D21CDA1F8C0C8200D56B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90D21CDC1F8C0C8200D56B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90D21CDF1F8C0C8200D56B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90D21CE11F8C0C8200D56B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90D21D0A1F8C18F300D56B6C /* Diablo III.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Diablo III.jpg"; sourceTree = "<group>"; };
+		90D21D0C1F8C18F300D56B6C /* Final Fantasy A Realm Reborn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final Fantasy A Realm Reborn.jpg"; sourceTree = "<group>"; };
+		90D21D0E1F8C18F300D56B6C /* Final Fantasy X.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final Fantasy X.jpg"; sourceTree = "<group>"; };
+		90D21D101F8C18F300D56B6C /* Kingdom Hearts 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Kingdom Hearts 2.jpg"; sourceTree = "<group>"; };
+		90D21D111F8C18F300D56B6C /* Skyrim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Skyrim.jpg; sourceTree = "<group>"; };
+		90D21D1A1F8C19CB00D56B6C /* Elder Scrolls Online.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Elder Scrolls Online.jpg"; sourceTree = "<group>"; };
+		90D21D1B1F8C19CB00D56B6C /* Final Fantasy VII.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final Fantasy VII.jpg"; sourceTree = "<group>"; };
+		90D21D201F8C1A8200D56B6C /* Final Fantasy XV.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Final Fantasy XV.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90D21CCD1F8C0C8100D56B6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90D21CC71F8C0C8100D56B6C = {
+			isa = PBXGroup;
+			children = (
+				90D21CE71F8C0EF900D56B6C /* Photos */,
+				90D21CD21F8C0C8100D56B6C /* TestMD */,
+				90D21CD11F8C0C8100D56B6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90D21CD11F8C0C8100D56B6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90D21CD01F8C0C8100D56B6C /* TestMD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90D21CD21F8C0C8100D56B6C /* TestMD */ = {
+			isa = PBXGroup;
+			children = (
+				90D21CD31F8C0C8200D56B6C /* AppDelegate.swift */,
+				90D21CD51F8C0C8200D56B6C /* MasterViewController.swift */,
+				90D21CD71F8C0C8200D56B6C /* DetailViewController.swift */,
+				90D21CD91F8C0C8200D56B6C /* Main.storyboard */,
+				90D21CDC1F8C0C8200D56B6C /* Assets.xcassets */,
+				90D21CDE1F8C0C8200D56B6C /* LaunchScreen.storyboard */,
+				90D21CE11F8C0C8200D56B6C /* Info.plist */,
+			);
+			path = TestMD;
+			sourceTree = "<group>";
+		};
+		90D21CE71F8C0EF900D56B6C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				90D21D0A1F8C18F300D56B6C /* Diablo III.jpg */,
+				90D21D1A1F8C19CB00D56B6C /* Elder Scrolls Online.jpg */,
+				90D21D1B1F8C19CB00D56B6C /* Final Fantasy VII.jpg */,
+				90D21D0C1F8C18F300D56B6C /* Final Fantasy A Realm Reborn.jpg */,
+				90D21D0E1F8C18F300D56B6C /* Final Fantasy X.jpg */,
+				90D21D201F8C1A8200D56B6C /* Final Fantasy XV.jpg */,
+				90D21D101F8C18F300D56B6C /* Kingdom Hearts 2.jpg */,
+				90D21D111F8C18F300D56B6C /* Skyrim.jpg */,
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90D21CCF1F8C0C8100D56B6C /* TestMD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90D21CE41F8C0C8200D56B6C /* Build configuration list for PBXNativeTarget "TestMD" */;
+			buildPhases = (
+				90D21CCC1F8C0C8100D56B6C /* Sources */,
+				90D21CCD1F8C0C8100D56B6C /* Frameworks */,
+				90D21CCE1F8C0C8100D56B6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMD;
+			productName = TestMD;
+			productReference = 90D21CD01F8C0C8100D56B6C /* TestMD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90D21CC81F8C0C8100D56B6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Rock Valley College";
+				TargetAttributes = {
+					90D21CCF1F8C0C8100D56B6C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90D21CCB1F8C0C8100D56B6C /* Build configuration list for PBXProject "TestMD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90D21CC71F8C0C8100D56B6C;
+			productRefGroup = 90D21CD11F8C0C8100D56B6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90D21CCF1F8C0C8100D56B6C /* TestMD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90D21CCE1F8C0C8100D56B6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D21D161F8C18F300D56B6C /* Final Fantasy X.jpg in Resources */,
+				90D21D181F8C18F300D56B6C /* Kingdom Hearts 2.jpg in Resources */,
+				90D21CE01F8C0C8200D56B6C /* LaunchScreen.storyboard in Resources */,
+				90D21D191F8C18F300D56B6C /* Skyrim.jpg in Resources */,
+				90D21D1E1F8C19CB00D56B6C /* Final Fantasy VII.jpg in Resources */,
+				90D21D121F8C18F300D56B6C /* Diablo III.jpg in Resources */,
+				90D21CDD1F8C0C8200D56B6C /* Assets.xcassets in Resources */,
+				90D21D1D1F8C19CB00D56B6C /* Elder Scrolls Online.jpg in Resources */,
+				90D21D211F8C1A8200D56B6C /* Final Fantasy XV.jpg in Resources */,
+				90D21CDB1F8C0C8200D56B6C /* Main.storyboard in Resources */,
+				90D21D141F8C18F300D56B6C /* Final Fantasy A Realm Reborn.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90D21CCC1F8C0C8100D56B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90D21CD81F8C0C8200D56B6C /* DetailViewController.swift in Sources */,
+				90D21CD61F8C0C8200D56B6C /* MasterViewController.swift in Sources */,
+				90D21CD41F8C0C8200D56B6C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90D21CD91F8C0C8200D56B6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D21CDA1F8C0C8200D56B6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90D21CDE1F8C0C8200D56B6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90D21CDF1F8C0C8200D56B6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90D21CE21F8C0C8200D56B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D21CE31F8C0C8200D56B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90D21CE51F8C0C8200D56B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.TestMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		90D21CE61F8C0C8200D56B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TestMD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.RockValleyCollege.TestMD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90D21CCB1F8C0C8100D56B6C /* Build configuration list for PBXProject "TestMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D21CE21F8C0C8200D56B6C /* Debug */,
+				90D21CE31F8C0C8200D56B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90D21CE41F8C0C8200D56B6C /* Build configuration list for PBXNativeTarget "TestMD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D21CE51F8C0C8200D56B6C /* Debug */,
+				90D21CE61F8C0C8200D56B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90D21CC81F8C0C8100D56B6C /* Project object */;
+}
